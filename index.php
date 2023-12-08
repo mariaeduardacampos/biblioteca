@@ -36,7 +36,7 @@
 		
 		<div class="card-preco">
 			<h3 class="card-preco-header">Dom Casmurro De Machado de Assis</h3>
-            <div class="item"> <img src="src/domcasmurro.jpg" width="250"> </div><br>
+            <div class="item"> <img src="src/domcasmurro.jpg" width="200"> </div><br>
 		</div>
 
         <div class="card-preco">

@@ -15,6 +15,8 @@
                 <a class="sem-cor" href="listarreserva.php">Listar reserva</a></li><br>
                 <a class="sem-cor" href="login.php">Login</a></li><br>
                 <a class="sem-cor" href="reserva.php">Reserva de livros</a></li><br>
+                <a class="sem-cor" href="../pdf.php">PDF</a></li><br>
+
 
 </body>
 </html>
