@@ -1,0 +1,17 @@
+{
+    "name": "aluno/biblioteca",
+    "autoload": {
+        "psr-4": {
+            "Aluno\\Biblioteca\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mariaeduardacampos",
+            "email": "duda.akiyama@gmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^2.0"
+    }
+}

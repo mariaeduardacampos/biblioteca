@@ -1,0 +1,104 @@
+.menu-superior {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(143, 2, 2);
+    width: 100vw;
+    height: 10vh;
+}
+
+.menu-superior a{
+    padding: 2%;
+}
+.sem-cor {
+    text-decoration: none !important;
+    color: black;
+}
+
+.romance{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.romance img{
+height: 200px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+}
+
+.tabela-preco
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: min(1500px, 100%);
+}
+
+.card-preco-header
+{
+	background-color:rgb(0, 0, 0);
+	display: inline-block;
+	color: #fff;
+	padding: 12px 30px;
+	border-radius: 0 0 20px 20px;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	transition: .4s line;
+}
+
+
+.preco sup, .preco span
+{
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.card-preco:hover, .card-preco:hover .preco
+{
+	color: #000000;
+}
+
+.card-preco li
+{
+	font-size: 16px;
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+
+.btn
+{
+	display: inline-block;
+	margin-bottom: 40px;
+	margin-top: 80px;
+	border: 2px solid #0fbcf9;
+	color: #0fbcf9;
+	padding: 18px 40px;
+	border-radius:  8px;
+	text-transform:  uppercase;
+	font-weight: 500;
+	transition:  .3s linear;
+}
+
+.btn:hover
+{
+	background-color: #0fbcf9;
+	color: #fff; 
+}
+.inferior{
+    background-color:rgb(196, 185, 32);
+    height:5vh;
+	text-align: center;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 1100px)
+{
+	.card-preco
+	{
+		flex:50%;
+	}
+}
